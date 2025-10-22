@@ -2,8 +2,8 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://djvmcr0nyfm0j"
-path.s3tc="res://.godot/imported/icon.svg-cbfea862ee2a6ac83912c25a335a3b24.s3tc.ctex"
+uid="uid://b06yvklyq2tx8"
+path.s3tc="res://.godot/imported/unit_placement_pattern.png-4e4bf72a3fa9147d4a936bca44729344.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://Assets/Visuals/icon.svg"
-dest_files=["res://.godot/imported/icon.svg-cbfea862ee2a6ac83912c25a335a3b24.s3tc.ctex"]
+source_file="res://Assets/Visuals/Textures/Reusable_Elements/unit_placement_pattern.png"
+dest_files=["res://.godot/imported/unit_placement_pattern.png-4e4bf72a3fa9147d4a936bca44729344.s3tc.ctex"]
 
 [params]
 
@@ -39,6 +39,3 @@ process/hdr_as_srgb=false
 process/hdr_clamp_exposure=false
 process/size_limit=0
 detect_3d/compress_to=0
-svg/scale=1.0
-editor/scale_with_editor_scale=false
-editor/convert_colors_with_editor_theme=false

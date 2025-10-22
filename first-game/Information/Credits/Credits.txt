@@ -1,6 +1,9 @@
 This project is primarily being developed solo by Jordan Underwood.
 
 Art Credits:
+Reusable_Elements unit placement pattern: Floor Tiles 06 by Rob Tuytel
+Source: https://polyhaven.com/a/floor_tiles_06
+
 
 Audio Credits:
 

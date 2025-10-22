@@ -1,0 +1,30 @@
+[gd_scene load_steps=5 format=3 uid="uid://t4wqd7xpubkv"]
+
+[ext_resource type="Texture2D" uid="uid://b06yvklyq2tx8" path="res://Assets/Visuals/Textures/Reusable_Elements/unit_placement_pattern.png" id="1_dr3gb"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_lvmfn"]
+albedo_texture = ExtResource("1_dr3gb")
+uv1_scale = Vector3(3, 1.5, 3)
+
+[sub_resource type="PlaneMesh" id="PlaneMesh_dr3gb"]
+material = SubResource("StandardMaterial3D_lvmfn")
+size = Vector2(20, 15)
+
+[sub_resource type="CapsuleMesh" id="CapsuleMesh_lvmfn"]
+
+[node name="Template" type="Node3D"]
+
+[node name="Sun" type="DirectionalLight3D" parent="."]
+transform = Transform3D(0.705476, -0.6137815, 0.35436687, 3.3192663e-08, 0.4999999, 0.86602545, -0.7087338, -0.6109602, 0.35273793, 0, 4.35339, 3.6260996)
+shadow_enabled = true
+
+[node name="LevelCamera" type="Camera3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 0.57357645, 0.81915206, 0, -0.81915206, 0.57357645, 0, 7, 5.6)
+fov = 90.0
+
+[node name="Floor" type="MeshInstance3D" parent="."]
+mesh = SubResource("PlaneMesh_dr3gb")
+
+[node name="Player" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -7.3655696, 1.2194766, -3.6625447)
+mesh = SubResource("CapsuleMesh_lvmfn")
